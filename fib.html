@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = prompt('Введите индекс числа Фибоначи', '');
+        var n = Number(a);
+        function fib(n){
+            return n!=1 ? n : fib(n-1) + fib(n-2);
+        }
+        alert('Число Фибоначи = '+ fib(n));
+    </script>
+</body>
+</html>
